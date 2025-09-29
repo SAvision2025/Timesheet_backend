@@ -45,7 +45,7 @@ from email.mime.text import MIMEText
 
 def send_email_to_manager(manager_email, employee_name, start_date, end_date, reason, leave_type, hours):
     sender_email = "timesheetsystem2025@gmail.com"
-    sender_password = "mhuv nxdf ciqz igws"  # Gmail App Password
+    sender_password = "ipyg vqex hwax amhp"  # Gmail App Password
 
     subject = f"New Leave Request from {employee_name}"
     body = f"""\

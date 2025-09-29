@@ -224,7 +224,7 @@ def send_leave_email(recipient_email, employee_name, status, hours, start_date):
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
         sender_email = "timesheetsystem2025@gmail.com"
-        sender_password = "mhuv nxdf ciqz igws"  # Gmail App Password
+        sender_password = "ipyg vqex hwax amhp"  # Gmail App Password
 
         with smtplib.SMTP(smtp_server, smtp_port) as server:
             server.starttls()
@@ -254,7 +254,7 @@ def send_email_to_manager_zero_leave(manager_email, employee_name):
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
         sender_email = "timesheetsystem2025@gmail.com"
-        sender_password = "mhuv nxdf ciqz igws"
+        sender_password = "ipyg vqex hwax amhp"
 
         with smtplib.SMTP(smtp_server, smtp_port) as server:
             server.starttls()

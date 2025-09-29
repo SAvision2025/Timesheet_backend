@@ -29,7 +29,7 @@ def send_safety_matrix_prompt(employee_email, employee_name):
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
         sender_email = "timesheetsystem2025@gmail.com"
-        sender_password = "mhuv nxdf ciqz igws"  # Use App Password
+        sender_password = "ipyg vqex hwax amhp"  # Use App Password
 
         with smtplib.SMTP(smtp_server, smtp_port) as server:
             server.starttls()
