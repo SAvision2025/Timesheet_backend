@@ -126,7 +126,7 @@ def add_AM_timesheet():
     if employee_email and employee_name:
         print(f"📧 Sending reminder to {employee_email} to complete safety matrix")
         send_safety_matrix_prompt(employee_email, employee_name)
-
+##########################
     return jsonify({"message": "AM timesheet added. Safety reminder email sent."})
 
 
